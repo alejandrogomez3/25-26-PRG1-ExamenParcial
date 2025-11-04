@@ -30,6 +30,8 @@ if (d == 1) fila.append("[9]:"); // Ascensor central
 
 ¿Qué observas en este código?
 
+El error observado en este fragmento de código viene dado por el uso del comentario `// Ascensor central` debido a que en numerosas ocasiones el profesor explica que en ningún momento se debe utilizar comentarios debido a que los ingenieros somos muy vagos y lo hacen lo más fácil posible, así que los comentarios son innecesarios. El `d==1` implica la columna 1 y el `fila.append("[9]:")` implica el añadir texto a la variable de fila.
+
 ---
 
 ## Pregunta 2
@@ -43,6 +45,7 @@ System.out.printf("Dia %d - %02d:00h Consumo hora: %d\n\n", dia + 1, hora, consu
 
 ¿Qué observas en este código?
 
+En este código, el uso de `\n` en `System.out.println(...)` es innecesario, ya que println añade el salto de línea por defecto. Esto puede provocar una línea vacía adicional. Se debe eliminar para mantener la salida limpia, por lo que es un error grave de código y no mantiene esa limpieza y estructura de código pedida por el profesor.
 ---
 
 ## Pregunta 3
@@ -59,6 +62,8 @@ int segundos = segundosTotales % 60;
 ```
 
 ¿Qué observas en este código?
+
+En este código podemos observar que la variable `segundosTotales` se modifica con la operación de `%=`lo que hace que esa variable dependa de las operaciones en cada paso y no se guarda en ningún sitio por lo que si lo necesitamos para otros calculos no disponemos de ella sino que disponemos de la ultima operación. Así como el uso de `segundosTotales`que se toman como el total de segundos, sin embargo no son los segundos originales porque se ven modificados tras las operaciones realizadas anteriormente.
 
 ---
 
@@ -78,6 +83,8 @@ Scanner scanner = new Scanner(System.in);
 
 ¿Qué observas en este código?
 
+En este código podemos observar el error de los comentarios debido a que en numerosas ocasiones el profesor explica que en ningún momento se debe utilizar comentarios debido a que los ingenieros somos muy vagos y lo hacen lo más fácil posible, así que los comentarios son innecesarios. Así como que el código intenta usar las variables `entregado` e `importe` antes de haber usado el scanner, ya que antes del scanner hay un if. 
+
 ---
 
 ## Pregunta 5
@@ -91,6 +98,8 @@ int dañoVampiro = 4;
 ```
 
 ¿Qué observas en este código?
+
+En este código podemos observar el error de los comentarios debido a que en numerosas ocasiones el profesor explica que en ningún momento se debe utilizar comentarios debido a que los ingenieros somos muy vagos y lo hacen lo más fácil posible, así que los comentarios son innecesarios. Además los nombres de las constantes son muy ambiguos y podrían tener otro nombre que le diera contexto a dicha constante para que el código se pudiese leer bien y estuviese limpio y preparado para utilizarle, sin necesidad de pensar en que es cada cosa.
 
 ---
 
