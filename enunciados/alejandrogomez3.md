@@ -45,7 +45,8 @@ System.out.printf("Dia %d - %02d:00h Consumo hora: %d\n\n", dia + 1, hora, consu
 
 ¿Qué observas en este código?
 
-En este código, el uso de \n en System.out.println(...) es innecesario, ya que println añade el salto de línea por defecto. Esto puede provocar una línea vacía adicional. Se debe eliminar para mantener la salida limpia, por lo que es un error grave de código y no mantiene esa limpieza y estructura de código pedida por el profesor
+En este código el uso de `\n` en `System.out.println(...)` es innecesario, ya que el println añade el salto de línea por defecto, esto puede provocar una línea vacía adicional. Se tiene que eliminar para mantener el código limpio, por lo que el error es grave y no mantiene la limpieza y estructura pedida.
+
 ---
 
 ## Pregunta 3
